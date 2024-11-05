@@ -32,7 +32,7 @@ CFLAGS=-g -Wall -Werror -UDEBUG
 LDFLAGS=-g
 
 # Specify libraries to link to here (these should be sufficient)
-LDLIBS=-/usr/bin/sqlite3 -lcrypto -lssl
+LDLIBS=-sqlite3 -lcrypto -lssl
 
 
 
