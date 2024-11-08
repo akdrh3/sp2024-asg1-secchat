@@ -2,11 +2,13 @@
 #define _API_H_
 
 struct api_msg {
+  char msg;
   /* TODO add information about message */
 };
 
 struct api_state {
   int fd;
+  int state;
   /* TODO add required fields */
 };
 

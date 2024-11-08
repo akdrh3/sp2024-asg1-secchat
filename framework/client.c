@@ -119,6 +119,10 @@ static int handle_incoming(struct client_state *state) {
   /* TODO if we have work queued up, this might be a good time to do it */
 
   /* TODO ask user for input if needed */
+  printf("Please type a message\n");
+  char buffer[100];
+  fgets(buffer, sizeof(buffer), stdin); // Reads a line of text from stdin
+
 
   /* list file descriptors to wait for */
   FD_ZERO(&readfds);
